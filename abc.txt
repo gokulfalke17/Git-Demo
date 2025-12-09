@@ -6,5 +6,4 @@ println('hello');
 console.log('');
 console.log('welcome');
 
-Good Morning, Team
 
