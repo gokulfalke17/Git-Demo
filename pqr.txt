@@ -1,3 +1,15 @@
 pqr
 pqr
 pqr
+
+console.log('abc');
+list.stream()
+	.filter(ele -> ele % 2 == 0).forEach(System.out::println);
+
+str.chars()
+	.mapToObj(ch -> (char)ch)
+	.collect(Collectors
+		.groupingBy(Function.identity(), Collectors
+			.counting()))
+	.Collect(Collectors.toMap())
+	.forEach((key, value) -> System.out.println(key+" -> "+value);
